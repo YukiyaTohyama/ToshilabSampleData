@@ -1,0 +1,30 @@
+#reference [https://matplotlib.org/tutorials/introductory/customizing.html]
+
+#font
+font.size : 10.0
+#font.weight : bold
+font.family : sans-serif
+font.sans-serif: Computer Modern Sans Serif, Helvetica, Arial, DejaVu Sans, Bitstream Vera Sans, Lucida Grande, Verdana, Geneva, Lucid, Avant Garde, sans-serif
+
+
+#ticks
+# tick, grid の位置. 最も下になる設定から(True,'line', False)
+axes.axisbelow : True
+axes.linewidth : 1.5
+
+axes.grid : True
+grid.color : 0.8
+grid.linewidth : 0.8
+
+xtick.direction : in
+ytick.direction : in
+
+xtick.major.width : 0.8
+ytick.major.width : 0.8
+xtick.major.size : 3.5
+ytick.major.size : 3.5
+
+xtick.minor.width : 0.8
+ytick.minor.width : 0.8
+xtick.minor.size : 2.5
+ytick.minor.size : 2.5
